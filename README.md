@@ -1,6 +1,6 @@
 # Symbolic Regression <!-- omit in toc -->
 
-A symbolic regression is an algorithm for fitting analytic relationships between features $\bm{x}$ and targets $y$ based on training data. This repository contains an implementation of a symbolic regression in Python with a GUI. The implementation is based on the DEAP library, see https://deap.readthedocs.io/en/master/.
+A symbolic regression is an algorithm for fitting analytic relationships between features $`\bm{x}`$ and targets $y$ based on training data. This repository contains an implementation of a symbolic regression in Python with a GUI. The implementation is based on the DEAP library, see https://deap.readthedocs.io/en/master/.
 
 # Table of Contents <!-- omit in toc -->
 - [Installation](#installation)
