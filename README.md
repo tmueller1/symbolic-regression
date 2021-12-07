@@ -10,9 +10,7 @@ A symbolic regression is an algorithm for fitting analytic relationships between
 
 To run this implementation of a symbolic regression, a Python interpreter is required. While this code was optimized for Python 3.8,  most likely other versions of Python 3 will also work. The code is reported to work on Windows and Linux. 
 
-In addition to a Python interpreter, the packages in "requirements.txt" are needed. They can be installed automatically with the Python package-manager pip by running the command
-
-`pip install -r requirements.txt`
+In addition to a Python interpreter, the packages in "requirements.txt" are needed. They can be installed automatically with the Python package-manager pip by running the command `pip install -r requirements.txt`.
 
 # Supported Training Data Format
 
