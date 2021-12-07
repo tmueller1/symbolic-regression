@@ -1,6 +1,6 @@
 # Symbolic Regression <!-- omit in toc -->
 
-A symbolic regression is an algorithm for fitting analytic relationships between features $`\bm{x}`$ and targets $y$ based on training data. This repository contains an implementation of a symbolic regression in Python with a GUI. The implementation is based on the DEAP library, see https://deap.readthedocs.io/en/master/.
+A symbolic regression is an algorithm for fitting analytic relationships between features $`\bm{x}`$ and targets $`y`$ based on training data. This repository contains an implementation of a symbolic regression in Python with a GUI. The implementation is based on the DEAP library, see https://deap.readthedocs.io/en/master/.
 
 # Table of Contents <!-- omit in toc -->
 - [Installation](#installation)
@@ -15,7 +15,7 @@ In addition to a Python interpreter, the packages in "requirements.txt" are need
 
 # Supported Data Format
 
-The data has to be an ".xls" file with **exactly one spreadsheet with the name "Sheet1"** of following form:
+The data has to be an ".xls" file with **exactly one spreadsheet with the name "Sheet1"** of the following form:
 
 ![format of data](./figures_for_readme/format_of_data.png)
 
@@ -31,7 +31,7 @@ A typical run of the symbolic regression looks like this:
 2. If the Python script started successfully, the following window pops up: ![gui](./figures_for_readme/gui.png)
 3. Click on "Load data" to select data that fulfills the requirements described in the section [Supported Data Format](#supported-data-format).
 4. The text fields may be used to specify the hyperparameters of the symbolic regression. Otherwise, the standard settings are applied. For more information on the hyperparameters, click on "info?". 
-5. Each specified hyperparameter has to be accepted by a click on the arrow button next to the text field. If the hyperparameter has been set successfully, the text "inputed" substitutes the arrow symbol: ![hyperparameters are inputed successfully](./figures_for_readme/gui_hyperparameters_inputed.png)
-6. If desired, click on "Add Submodels" to specify submodels to consider during the symbolic regression in the following window that pops up: ![specification of submodels](./figures_for_readme/gui_add_submodels.png)
+5. Each specified hyperparameter has to be accepted by a click on the arrow button next to the text field. If the hyperparameter has been set successfully, the text "inputed" will replace the arrow symbol: ![hyperparameters are inputed successfully](./figures_for_readme/gui_hyperparameters_inputed.png)
+6. If it is desired to specify submodels to consider during the symbolic regression, click on "Add Submodels". Then, the following window pops up that allows to specify submodels: ![specification of submodels](./figures_for_readme/gui_add_submodels.png)
 7. Click on "Calculate Model(RMSE)" or "Calculate Model(MSE)" depending on if you are interested in the RMSE or the MSE of the model.
 8. During the symbolic regression, the minimum and maximum RMSE/MAE for every generation is printed in the terminal. When the symbolic regression has finished, the final formula and its RMSE/MAE is also displayed: ![symbolic regression in terminal](./figures_for_readme/symbolic_regression_terminal.png) The same information appears also in the GUI: ![symbolic regression in gui](./figures_for_readme/symbolic_regression_gui.png)
