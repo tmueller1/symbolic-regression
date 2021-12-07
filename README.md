@@ -6,6 +6,8 @@ A symbolic regression is an algorithm for fitting analytic relationships between
 - [Installation](#installation)
 - [Supported Data Format](#supported-data-format)
 - [Usage](#usage)
+- [Example: CT Scan](#example-ct-scan)
+- [Example: Ultrasound](#example-ultrasound)
 
 # Installation 
 
@@ -35,3 +37,11 @@ A typical run of the symbolic regression looks like this:
 6. If it is desired to specify submodels to consider during the symbolic regression, click on "Add Submodels". In the window that pops up, submodels can be written. They have to be accepted by clicking on "finish": ![specification of submodels](./figures_for_readme/gui_add_submodels.png)
 7. Click on "Calculate Model(RMSE)" or "Calculate Model(MSE)" depending on if you are interested in the RMSE or the MSE of the model.
 8. During the symbolic regression, the minimum and maximum RMSE/MAE for every generation is printed in the terminal. When the symbolic regression has finished, the final formula and its RMSE/MAE is also displayed: ![symbolic regression in terminal](./figures_for_readme/symbolic_regression_terminal.png) The same information appears also in the GUI: ![symbolic regression in gui](./figures_for_readme/symbolic_regression_gui.png)
+
+# Example: CT Scan
+
+Under "example_ct_scan/rmse_vs_generation.xls", the results of a symbolic regression on the CT scan dataset after the feature selection (see https://git-ce.rwth-aachen.de/wzl-mq-ms-rpc/code/research/mlb-dissertation/feature-selection-for-measurement-models) are stored. The file contains the minimum RMSE as a function of the generation number. The hyperparameters that were found with the HPO algorithm "Bayesian Optimization via TPE" as well as the final formula are also denoted in the file.
+
+# Example: Ultrasound
+
+The results of a symbolic regression on the ultrasound dataset after the feature selection (see https://git-ce.rwth-aachen.de/wzl-mq-ms-rpc/code/research/mlb-dissertation/feature-selection-for-measurement-models) are stored under "example_ultrasound/rmse_vs_generation.xls". The content of the file is analog to the the CT scan example in the last section.
