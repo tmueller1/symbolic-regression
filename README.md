@@ -16,6 +16,7 @@ A symbolic regression is an algorithm for fitting analytic relationships between
 - [Usage](#usage)
 - [Example: CT Scan](#example-ct-scan)
 - [Example: Ultrasound](#example-ultrasound)
+- [License](#license)
 
 # Installation 
 
