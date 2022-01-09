@@ -1,5 +1,12 @@
 # Symbolic Regression <!-- omit in toc -->
 
+This is the code and the data set necessary to reproduce the results from the the dissertation "Modellbildung mittels Symbolischer Regression zur Messunsicherheitsbestimmung komplexer Messprozesse". 
+
+Author: Mueller, Tobias 
+
+Chair of Production Metrology and Quality Management at the Laboratory for Machine Tools and Production Engineering (WZL) of RWTH Aachen University - Campus Boulevard 30, 52074 Aachen, Germany
+
+
 A symbolic regression is an algorithm for fitting analytic relationships between features $`\bm{x}`$ and targets $`y`$ based on training data. This repository contains an implementation of a symbolic regression in Python with a GUI. The implementation is based on the DEAP library, see https://deap.readthedocs.io/en/master/.
 
 # Table of Contents <!-- omit in toc -->
