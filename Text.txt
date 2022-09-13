@@ -1,0 +1,1 @@
+1.3247-0.0000025*Temperature**2+Salinity*(0.0002-0.0000008*Temperature)+3300/Wavelength**2-32000000/Wavelength**4
