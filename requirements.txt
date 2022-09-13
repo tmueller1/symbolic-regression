@@ -1,0 +1,7 @@
+deap
+numpy
+pythonds
+random2
+sympy
+xlrd
+xlutils
