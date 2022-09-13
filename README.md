@@ -28,7 +28,7 @@ In addition to a Python interpreter, the packages in "requirements.txt" are need
 
 The data has to be an ".xls" file with **exactly one spreadsheet with the name "Sheet1"** of the following form:
 
-![format of data](./figures_for_readme/format_of_data.png)
+![format of data](./figures_for_readme/format_of_data[1].png)
 
 The first row is a header that describes the content of each column. The first column contains the target values for every measurement, while the other columns are the corresponding features.
 
