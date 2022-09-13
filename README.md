@@ -39,13 +39,13 @@ As comma separator, a "." ("dot", e.g. 12.3) has to be used.
 A typical run of the symbolic regression looks like this:
 
 1. Run main.py, e.g. via the command `python main.py`.
-2. If the Python script started successfully, the following window pops up: ![gui](./figures_for_readme/gui.png)
+2. If the Python script started successfully, the following window pops up: ![gui](./figures_for_readme/gui[1].png)
 3. Click on "Load data" to select data that fulfills the requirements described in the section [Supported Data Format](#supported-data-format).
 4. The text fields may be used to specify the hyperparameters of the symbolic regression. Otherwise, the standard settings are applied. For more information on the hyperparameters, click on "info?". 
-5. Each specified hyperparameter has to be accepted by a click on the arrow button next to the text field. If the hyperparameter has been set successfully, the text "inputed" will replace the arrow symbol: ![hyperparameters are inputed successfully](./figures_for_readme/gui_hyperparameters_inputed.png)
-6. If it is desired to specify submodels to consider during the symbolic regression, click on "Add Submodels". In the window that pops up, submodels can be written. They have to be accepted by clicking on "finish": ![specification of submodels](./figures_for_readme/gui_add_submodels.png)
+5. Each specified hyperparameter has to be accepted by a click on the arrow button next to the text field. If the hyperparameter has been set successfully, the text "inputed" will replace the arrow symbol: ![hyperparameters are inputed successfully](./figures_for_readme/gui_hyperparameters_inputed[1].png)
+6. If it is desired to specify submodels to consider during the symbolic regression, click on "Add Submodels". In the window that pops up, submodels can be written. They have to be accepted by clicking on "finish": ![specification of submodels](./figures_for_readme/gui_add_submodels[1].png)
 7. Click on "Calculate Model(RMSE)" or "Calculate Model(MSE)" depending on if you are interested in the RMSE or the MSE of the model.
-8. During the symbolic regression, the minimum and maximum RMSE/MAE for every generation is printed in the terminal. When the symbolic regression has finished, the final formula and its RMSE/MAE is also displayed: ![symbolic regression in terminal](./figures_for_readme/symbolic_regression_terminal.png) The same information appears also in the GUI: ![symbolic regression in gui](./figures_for_readme/symbolic_regression_gui.png)
+8. During the symbolic regression, the minimum and maximum RMSE/MAE for every generation is printed in the terminal. When the symbolic regression has finished, the final formula and its RMSE/MAE is also displayed: ![symbolic regression in terminal](./figures_for_readme/symbolic_regression_terminal[1].png) The same information appears also in the GUI: ![symbolic regression in gui](./figures_for_readme/symbolic_regression_gui[1].png)
 
 # Example: CT Scan
 
