@@ -6,7 +6,19 @@ Author: Mueller, Tobias
 
 Chair of Production Metrology and Quality Management at the Laboratory for Machine Tools and Production Engineering (WZL) of RWTH Aachen University - Campus Boulevard 30, 52074 Aachen, Germany
 
-Please cite this code or the data set as: BibTex will be added after publication
+Please cite this code or the data set as: 
+      author       = {Müller, Tobias},
+      title        = {{M}odellbildung mittels symbolischer {R}egression zur
+                      {M}essunsicherheitsbestimmung komplexer {M}essprozesse},
+      volume       = {7/2023},
+      school       = {RWTH Aachen University},
+      type         = {Dissertation},
+      address      = {Aachen},
+      publisher    = {Apprimus Verlag},
+      isbn         = {978-3-98555-146-0},
+      series       = {Ergebnisse aus der Produktionstechnik},
+      year         = {2023},
+      doi          = {10.18154/RWTH-2023-01146}
 
 A symbolic regression is an algorithm for fitting analytic relationships between features $`\bm{x}`$ and targets $`y`$ based on training data. This repository contains an implementation of a symbolic regression in Python with a GUI. The implementation is based on the DEAP library, see https://deap.readthedocs.io/en/master/.
 
